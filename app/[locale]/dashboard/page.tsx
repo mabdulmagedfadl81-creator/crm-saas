@@ -4,6 +4,8 @@ import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 
+export const dynamic = 'force-dynamic';
+
 interface DashboardStats {
   totalContacts: number;
   totalDeals: number;

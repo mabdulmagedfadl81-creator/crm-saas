@@ -5,6 +5,8 @@ import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 
+export const dynamic = 'force-dynamic';
+
 export default function LoginPage() {
   const t = useTranslations();
   const router = useRouter();

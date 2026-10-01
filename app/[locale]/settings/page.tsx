@@ -3,6 +3,8 @@
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 
+export const dynamic = 'force-dynamic';
+
 export default function SettingsPage() {
   const t = useTranslations();
   const [activeTab, setActiveTab] = useState('integrations');

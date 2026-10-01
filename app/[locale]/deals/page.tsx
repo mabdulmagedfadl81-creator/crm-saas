@@ -3,6 +3,8 @@
 import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 
+export const dynamic = 'force-dynamic';
+
 export default function DealsPage() {
   const t = useTranslations();
   const [deals, setDeals] = useState<any[]>([]);
