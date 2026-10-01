@@ -60,7 +60,7 @@
     "noDeals": "لا توجد صفقات حتى الآن"
   },
   "pricing": {
-    "title": "الأسعار",
+    "title": "💳 جدول الأسعار",
     "selectPlan": "اختر خطتك",
     "free": "مجاني",
     "pro": "احترافي",
@@ -68,7 +68,15 @@
     "features": "الميزات",
     "getStarted": "ابدأ الآن",
     "perMonth": "/شهر",
-    "unlimited": "غير محدود"
+    "unlimited": "غير محدود",
+    "upgrade": "ترقية",
+    "contactLimit": "حد جهات الاتصال",
+    "dealLimit": "حد الصفقات",
+    "emailReminders": "تذكيرات بالبريد الإلكتروني",
+    "whatsappIntegration": "تكامل واتساب",
+    "telegramIntegration": "تكامل تيليجرام",
+    "aiPredictions": "التنبؤات بالذكاء الاصطناعي",
+    "apiAccess": "الوصول إلى الواجهة البرمجية"
   },
   "common": {
     "save": "حفظ",

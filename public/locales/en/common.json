@@ -60,7 +60,7 @@
     "noDeals": "No deals yet"
   },
   "pricing": {
-    "title": "Pricing",
+    "title": "💳 Pricing Plans",
     "selectPlan": "Choose Your Plan",
     "free": "Free",
     "pro": "Pro",
@@ -68,7 +68,15 @@
     "features": "Features",
     "getStarted": "Get Started",
     "perMonth": "/month",
-    "unlimited": "Unlimited"
+    "unlimited": "Unlimited",
+    "upgrade": "Upgrade",
+    "contactLimit": "Contact Limit",
+    "dealLimit": "Deal Limit",
+    "emailReminders": "Email Reminders",
+    "whatsappIntegration": "WhatsApp Integration",
+    "telegramIntegration": "Telegram Integration",
+    "aiPredictions": "AI Predictions",
+    "apiAccess": "API Access"
   },
   "common": {
     "save": "Save",
