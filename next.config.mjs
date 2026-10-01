@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  experimental: {
+    dynamicIO: true,
+  },
+  skipMiddlewareUrlNormalization: true,
 };
 
 export default nextConfig;
