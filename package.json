@@ -9,9 +9,13 @@
   },
   "dependencies": {
     "next": "16.3.8",
+    "next-intl": "^4.14.8",
     "react": "19.2.8",
     "react-dom": "19.2.8",
-    "stripe": "^22.6.2"
+    "stripe": "^22.6.2",
+    "nodemailer": "^6.9.7",
+    "bull": "^4.11.5",
+    "redis": "^4.6.11"
   },
   "devDependencies": {
     "@prisma/client": "^5.22.0",

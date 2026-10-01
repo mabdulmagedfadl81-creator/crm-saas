@@ -1,0 +1,85 @@
+{
+  "header": {
+    "title": "بيع سي آر إم",
+    "dashboard": "لوحة التحكم",
+    "contacts": "جهات الاتصال",
+    "deals": "الصفقات",
+    "pricing": "الأسعار",
+    "logout": "تسجيل الخروج"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "signup": "إنشاء حساب",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "name": "الاسم الكامل",
+    "remember": "تذكرني",
+    "forgotPassword": "هل نسيت كلمة المرور؟",
+    "noAccount": "ليس لديك حساب؟",
+    "haveAccount": "هل لديك حساب بالفعل؟",
+    "signUp": "انقر هنا للتسجيل",
+    "signIn": "انقر هنا لتسجيل الدخول"
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "welcome": "أهلا وسهلا",
+    "statistics": "الإحصائيات",
+    "totalContacts": "إجمالي جهات الاتصال",
+    "totalDeals": "إجمالي الصفقات",
+    "totalRevenue": "إجمالي الإيرادات",
+    "recentActivity": "النشاط الأخير",
+    "noActivity": "لا توجد أنشطة حديثة"
+  },
+  "contacts": {
+    "title": "جهات الاتصال",
+    "addNew": "إضافة جهة اتصال جديدة",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "phone": "الهاتف",
+    "company": "الشركة",
+    "title": "المسمى الوظيفي",
+    "status": "الحالة",
+    "createdAt": "تاريخ الإنشاء",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "noContacts": "لا توجد جهات اتصال حتى الآن"
+  },
+  "deals": {
+    "title": "الصفقات",
+    "addNew": "إضافة صفقة جديدة",
+    "dealName": "اسم الصفقة",
+    "value": "القيمة",
+    "stage": "المرحلة",
+    "probability": "احتمالية الإغلاق",
+    "dueDate": "تاريخ الاستحقاق",
+    "contact": "جهة الاتصال",
+    "createdAt": "تاريخ الإنشاء",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "noDeals": "لا توجد صفقات حتى الآن"
+  },
+  "pricing": {
+    "title": "الأسعار",
+    "selectPlan": "اختر خطتك",
+    "free": "مجاني",
+    "pro": "احترافي",
+    "business": "عمل",
+    "features": "الميزات",
+    "getStarted": "ابدأ الآن",
+    "perMonth": "/شهر",
+    "unlimited": "غير محدود"
+  },
+  "common": {
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "add": "إضافة",
+    "close": "إغلاق",
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "success": "نجح",
+    "confirm": "هل أنت متأكد؟"
+  }
+}

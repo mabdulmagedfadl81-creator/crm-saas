@@ -1,0 +1,85 @@
+{
+  "header": {
+    "title": "SalesCRM",
+    "dashboard": "Dashboard",
+    "contacts": "Contacts",
+    "deals": "Deals",
+    "pricing": "Pricing",
+    "logout": "Logout"
+  },
+  "auth": {
+    "login": "Login",
+    "signup": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "name": "Full Name",
+    "remember": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "signUp": "Sign up here",
+    "signIn": "Sign in here"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back",
+    "statistics": "Statistics",
+    "totalContacts": "Total Contacts",
+    "totalDeals": "Total Deals",
+    "totalRevenue": "Total Revenue",
+    "recentActivity": "Recent Activity",
+    "noActivity": "No recent activity"
+  },
+  "contacts": {
+    "title": "Contacts",
+    "addNew": "Add New Contact",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "company": "Company",
+    "title": "Title",
+    "status": "Status",
+    "createdAt": "Created",
+    "edit": "Edit",
+    "delete": "Delete",
+    "noContacts": "No contacts yet"
+  },
+  "deals": {
+    "title": "Deals",
+    "addNew": "Add New Deal",
+    "dealName": "Deal Name",
+    "value": "Value",
+    "stage": "Stage",
+    "probability": "Probability",
+    "dueDate": "Due Date",
+    "contact": "Contact",
+    "createdAt": "Created",
+    "edit": "Edit",
+    "delete": "Delete",
+    "noDeals": "No deals yet"
+  },
+  "pricing": {
+    "title": "Pricing",
+    "selectPlan": "Choose Your Plan",
+    "free": "Free",
+    "pro": "Pro",
+    "business": "Business",
+    "features": "Features",
+    "getStarted": "Get Started",
+    "perMonth": "/month",
+    "unlimited": "Unlimited"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "close": "Close",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "confirm": "Are you sure?"
+  }
+}
