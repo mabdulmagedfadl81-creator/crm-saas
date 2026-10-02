@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Providers } from "./providers";
+import { LanguageSwitcher } from "./language-switcher";
 import { locales } from "@/i18n";
 import "../globals.css";
 
@@ -31,6 +32,7 @@ export default async function RootLayout({
   return (
     <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
       <body>
+        <LanguageSwitcher />
         <Providers locale={locale} messages={messages}>
           {children}
         </Providers>
