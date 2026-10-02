@@ -32,7 +32,6 @@ export default async function RootLayout({
   return (
     <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
       <body>
-        <LanguageSwitcher />
         <Providers locale={locale} messages={messages}>
           {children}
         </Providers>
