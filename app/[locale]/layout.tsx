@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { unstable_setRequestLocale } from "next-intl/server";
+import { Providers } from "./providers";
 import { locales } from "@/i18n";
 import "../globals.css";
 
@@ -26,11 +26,15 @@ export default async function RootLayout({
     notFound();
   }
 
-  unstable_setRequestLocale(locale);
+  const messages = (await import(`@/public/locales/${locale}/common.json`)).default;
 
   return (
     <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
-      <body>{children}</body>
+      <body>
+        <Providers locale={locale} messages={messages}>
+          {children}
+        </Providers>
+      </body>
     </html>
   );
 }
