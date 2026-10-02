@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { unstable_setRequestLocale } from "next-intl/server";
 import { locales } from "@/i18n";
 import "../globals.css";
 
@@ -24,6 +25,8 @@ export default async function RootLayout({
   if (!locales.includes(locale as any)) {
     notFound();
   }
+
+  unstable_setRequestLocale(locale);
 
   return (
     <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
